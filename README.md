@@ -52,7 +52,7 @@ Each page is developed on a **separate feature branch** and merged into the `dev
 
 | **Role** | **Name** | **Responsibilities** |
 |-----------|-----------|----------------------|
-| **Team Lead** | **Abdul Wahab Subhani** | Develops `index.html` (Home) page, repository setup, baseline commits, branch protection, issue creation, release management, and final merges |
+| **Team Lead** | **Mohammad Rayan** | Develops `index.html` (Home) page, repository setup, baseline commits, branch protection, issue creation, release management, and final merges |
 | **Member 1** | **Muhammad Ahmad** | Develops `about.html` page |
 | **Member 2** | **Yasir Iftikhar** | Develops `events.html` page |
 | **Member 3** | **Abdul Wahab Subhani** | Develops `gallery.html` page |
