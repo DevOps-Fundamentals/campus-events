@@ -1,0 +1,105 @@
+/* ===========================================
+   GLOBAL STYLES
+   Author: Mohammad Rayan
+   Project: Campus Events Website
+   =========================================== */
+
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header & Navbar ===== */
+header {
+  background: #004aad;
+  color: white;
+  padding: 12px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #d0e3ff;
+}
+
+.nav-links a.active {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
+
+/* ===== Main Section ===== */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 2px solid #003680;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3 {
+  color: #004aad;
+}
+
+/* ===== Links in main ===== */
+main a {
+  color: #004aad;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+
+
