@@ -18,7 +18,7 @@ The website provides an engaging interface where students can:
 ---
 
 ## 📁 **Folder Structure**
-
+```
 campus-events/
 |
 ├── .gitignore
@@ -42,7 +42,7 @@ campus-events/
 │   └── style.css
 │
 └── dist/ # (auto-generated after Parcel build)
-
+```
 
 Each page is developed on a **separate feature branch** and merged into the `develop` branch via **protected pull requests**.
 
