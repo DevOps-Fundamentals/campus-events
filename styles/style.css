@@ -720,3 +720,93 @@ main a:hover {
     padding: 20px;
   }
 }
+
+/* ===========================================
+   FAQ PAGE STYLES
+   =========================================== */
+
+.faq-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.faq-section h1 {
+  color: #004aad;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.faq-section p {
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faq-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.faq-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Hide the checkbox */
+.faq-item input {
+  display: none;
+}
+
+.faq-item label {
+  display: block;
+  padding: 15px 20px;
+  background: #004aad;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.faq-item label:hover {
+  background: #005fe0;
+}
+
+/* Content hidden by default */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #f9faff;
+  padding: 0 20px;
+}
+
+.faq-item input:checked ~ .faq-content {
+  max-height: 200px; /* adjust as needed */
+  padding: 15px 20px;
+}
+
+.faq-content p {
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .faq-section {
+    margin: 20px;
+    padding: 20px;
+  }
+}
